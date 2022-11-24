@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites errors="2"
+            failures="0"
+            tests="1">
+
+  <testsuite name="testing"
+    errors="2" failures="0" hostname="" id="" package="testing" skipped="0"
+    tests="1" time="0.06200" timestamp="">
+  
+    <testcase name="Test 5" classname="testing" time="0.06200" assertions="0">
+    <error message="pause is not defined" type="error"><![CDATA[
+    ReferenceError: pause is not defined
+    at Object.Test 5 (C:\Testing2\testing.js:115:2)
+    at Context.call (C:\Testing2\node_modules\nightwatch\lib\testsuite\context.js:476:35)
+    at TestCase.run (C:\Testing2\node_modules\nightwatch\lib\testsuite\testcase.js:58:31)
+    at Runnable.__runFn (C:\Testing2\node_modules\nightwatch\lib\testsuite\index.js:723:80)
+    at Runnable.run (C:\Testing2\node_modules\nightwatch\lib\testsuite\runnable.js:126:21)
+    at TestSuite.executeRunnable (C:\Testing2\node_modules\nightwatch\lib\testsuite\index.js:836:49)
+    at TestSuite.handleRunnable (C:\Testing2\node_modules\nightwatch\lib\testsuite\index.js:851:33)
+    at C:\Testing2\node_modules\nightwatch\lib\testsuite\index.js:723:21
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async DefaultRunner.runTestSuite (C:\Testing2\node_modules\nightwatch\lib\runner\test-runners\default.js:76:7)
+    ]]></error>
+    
+    </testcase>
+  
+
+  
+    <system-err>
+       ✖ ReferenceError
+   pause is not defined
+
+    Error location:
+    C:\Testing2\testing.js:
+    ––––––––––––––––––––––––
+     113 | browser.click(&#34;#root &gt; div &gt; div &gt; main &gt; div &gt; div &gt; div.css-mypnpf.eb9z3dt6 &gt; aside.css-1rpciof.e1e6x9or1 &gt; div &gt; div &gt; div &gt; div.flex.flex-column &gt; div.full-height.relative.scroll-y.scroll-show.pt3.pb4 &gt; div:nth-child(3) &gt; div &gt; div.flex.align-center &gt; a &gt; button&#34;)
+     114 | browser.click(&#34;body &gt; span.PopoverContainer.tether-element.tether-element-attached-top.tether-element-attached-left.tether-target-attached-bottom.tether-target-attached-left.PopoverContainer--open.popover.tether-enabled &gt; span &gt; div &gt; div &gt; div &gt; div:nth-child(3) &gt; div &gt; span&#34;)
+     115 |  pause(&#34;10000&#34;) 
+     116 | }
+     117 | 
+    ––––––––––––––––––––––––
+
+    Stack Trace :
+    at Object.Test 5 (C:\Testing2\testing.js:115:2)
+    at Context.call (C:\Testing2\node_modules\nightwatch\lib\testsuite\context.js:476:35)
+    at TestCase.run (C:\Testing2\node_modules\nightwatch\lib\testsuite\testcase.js:58:31)
+    at Runnable.__runFn (C:\Testing2\node_modules\nightwatch\lib\testsuite\index.js:723:80)
+    at Runnable.run (C:\Testing2\node_modules\nightwatch\lib\testsuite\runnable.js:126:21)
+    at TestSuite.executeRunnable (C:\Testing2\node_modules\nightwatch\lib\testsuite\index.js:836:49)
+    at TestSuite.handleRunnable (C:\Testing2\node_modules\nightwatch\lib\testsuite\index.js:851:33)
+    at C:\Testing2\node_modules\nightwatch\lib\testsuite\index.js:723:21
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async DefaultRunner.runTestSuite (C:\Testing2\node_modules\nightwatch\lib\runner\test-runners\default.js:76:7)
+
+ NoSuchElementError
+   An element could not be located on the page using the given search parameters.
+
+    Try fixing by :
+    1. Please inspect the html before the step
+    2. Verify if an element with the mentioned selector is present in the DOM tree
+
+    Error location:
+    C:\Testing2\testing.js:
+    ––––––––––––––––––––––––
+     112 | browser.click(&#34;#root &gt; div &gt; div &gt; main &gt; div &gt; div &gt; div.css-mypnpf.eb9z3dt6 &gt; aside.css-1rpciof.e1e6x9or1 &gt; div &gt; div &gt; div &gt; div.flex.flex-column &gt; div.full-height.relative.scroll-y.scroll-show.pt3.pb4 &gt; div:nth-child(3) &gt; div &gt; div.flex.align-center &gt; a &gt; button&#34;)
+     113 | browser.click(&#34;#root &gt; div &gt; div &gt; main &gt; div &gt; div &gt; div.css-mypnpf.eb9z3dt6 &gt; aside.css-1rpciof.e1e6x9or1 &gt; div &gt; div &gt; div &gt; div.flex.flex-column &gt; div.full-height.relative.scroll-y.scroll-show.pt3.pb4 &gt; div:nth-child(3) &gt; div &gt; div.flex.align-center &gt; a &gt; button&#34;)
+     114 | browser.click(&#34;body &gt; span.PopoverContainer.tether-element.tether-element-attached-top.tether-element-attached-left.tether-target-attached-bottom.tether-target-attached-left.PopoverContainer--open.popover.tether-enabled &gt; span &gt; div &gt; div &gt; div &gt; div:nth-child(3) &gt; div &gt; span&#34;) 
+     115 |  pause(&#34;10000&#34;)
+     116 | }
+    ––––––––––––––––––––––––
+
+    </system-err>
+  
+
+    
+
+  
+  </testsuite>
+</testsuites>
