@@ -1,0 +1,20 @@
+Explored Mend sast for sast testing
+Mend SAST provides visibility to over 70 CWE types — including OWASP Top 10 and SANS 25 — in desktop, web and mobile applications developed on various platforms and frameworks. The unique thing about Mend SAST is how fast it is — typically 10 times faster than traditional SAST products, so your developers are never left waiting for results. Mend SAST integrates very easily with your existing DevOps environment and CI/CD pipeline, so developers don’t need to separately configure or trigger the scan.
+
+Mend has pledged to bring its “remediation first” approach to Mend SAST by integrating the automated remediation capabilities of Mend Cure. Vulnerability alerts and remediation pull requests will be listed directly in developers’ normal workflow, providing a more efficient experience for developers than anything else on the market. 
+Features:
+
+Easy to Use:
+Mend SAST takes minutes to set up, is easy to use, and functions on raw source code-removing the potentially dangerous need to upload your code to the cloud. It also integrates with your existing DevOps environment and CI/CD pipeline, so developers don’t need to separately configure or trigger the scan. It’s available at the right time, in the right place.
+
+Fast scanning results:
+Mend SAST contains a breakthrough scanning engine that produces results 10x faster than traditional SAST solutions. So your developers are not left waiting.
+
+Comprehensive Language Support:
+Mend SAST supports 27 different programming languages and various different programming frameworks. Whatever you’ve got, we can probably handle.
+
+Bridge the culture gap:
+The efficiency and ease-of-use of Mend SAST will help your software developers learn to trust their software tools and collaborate more readily with members of your security team.
+
+Unified developer platform:
+Mend SAST and Mend SCA both conveniently show security alerts within the developer’s native environment, such as their code repository.
