@@ -23,3 +23,4 @@ Appium will check if the app was resumed successfully.
 
 
 ==>We have created a word document for the features we explored on that framework for testing!
+===========================PROJECT CLONED LINK--> (https://github.com/alttester/EXAMPLES-Java-Standalone-and-Android-AltTrashCat.git)====================================
